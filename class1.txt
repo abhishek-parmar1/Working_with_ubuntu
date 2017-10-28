@@ -1,0 +1,6 @@
+NOTES	:
+1> Terminal : cli
+2> exit terminal : exit
+3> ssh : secure shell / network protocol : for connecting accross the servers in network 
+   to connect to remote system : ssh adminuser@username with password
+   exit : to exit from remote server
