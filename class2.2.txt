@@ -1,0 +1,37 @@
+NOTES :
+
+Basic commands :
+
+1> ls -lists directory
+   ls -l : detailed format 
+
+2> cd - change directory
+   cd .. : go back one
+   cd - go to root
+   cd path - go to path
+
+3> pwd - present working directory
+
+4> cat - concatenates and display files
+
+5> echo - displays arguments to the screen
+   echo $PATH : variables, envirenment variables
+        $PATH : controlls the  commands search path, contains the list of directories to search a command. 
+
+6> man - manual
+   man ls - documentation of ls cmmd
+   enter - move down by one line
+   space - move down by one page
+   g - top 
+   G - bottom
+
+7> exit - exit terminal
+
+8> clear - clear terminal
+
+9> which - for path of  a command
+   which cat : gives the path of cat command in directories
+
+10> for help on any command : cmmd --help or cmmd -h
+
+11> search in man : man -k keyword

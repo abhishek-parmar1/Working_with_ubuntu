@@ -1,0 +1,21 @@
+NOTES	:
+
+Directories
+1> / root
+2> /bin : binary files or other executable files
+3> /etc : configuration files
+4> /home : home directories, seperating the different user's data
+5> /opt or /usr/local : for third party softwares which are installed by the user
+6> /tmp : temporary space, cleared at boot time
+7> /usr : user related files
+8> /var : variable data
+9> /cdrom : for files on cd inserted
+10> /media : for removable storages
+
+Shell (terminal)
+1> cli
+2> normal user - $
+3> super user (admin or root) - #
+4> ~ - your home directory
+   ~root -> /root
+   ~username -> /home/username

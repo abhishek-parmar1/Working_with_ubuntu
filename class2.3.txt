@@ -1,0 +1,7 @@
+NOTES :
+1> echo $OLDPWD : for old working directory
+2> cd - : to directly move to old working directory
+3> to run a command we can use its full path : /bin/cat example.txt or ./cat(for current directory)
+4> mkdir : make directory
+5> rmdir : remove directory if empty
+6> rm -rf : to delete everything in a directory with directory
