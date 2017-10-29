@@ -30,7 +30,7 @@ Basic commands :
 8> clear - clear terminal
 
 9> which - for path of  a command
-   which cat : gives the path of cat command in directories
+   which cat : gives the path of cat command in directories, which are under the $PATH variable
 
 10> for help on any command : cmmd --help or cmmd -h
 

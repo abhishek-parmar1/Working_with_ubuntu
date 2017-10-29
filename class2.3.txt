@@ -5,3 +5,25 @@ NOTES :
 4> mkdir : make directory
 5> rmdir : remove directory if empty
 6> rm -rf : to delete everything in a directory with directory
+7> ls-l :  EXAMPLE
+	 -rw-rw-r-- 1 jason users 10400 Sep 27 08:52 sales.data
+	 permisions	 	-rw-rw-r--
+         number of links	1
+	 owner name             jason
+	 group name		users 
+	 number of bytes in the file 10400
+	 last modification name	sep 27 08:52
+	 file name 		sales.data
+8> files name starting with dot "." are hidden files
+   ls -a : to view hidden files
+   ls -la : long listing with hidden files
+9> ls -F : for files with distinctions them
+	 end with / : directories
+	 end with @ : links (shortcuts)
+	 end with * : executable 	
+10> ls -t : sorted by time
+    ls -r : in revrese order
+    ls -latr : long listing with hidden in reverse order
+    ls -R : to show all the files,sub files, folders, sub folders in the file.
+	 
+	 
