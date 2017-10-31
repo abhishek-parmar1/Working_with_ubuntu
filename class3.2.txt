@@ -1,0 +1,13 @@
+NOTES :
+1> cat fileName : just tto display file content
+2> more fileName : display file in formated way
+3> less fileName : display file in formated way
+4> head fileName : display by default top 10 lines
+   head -15 fileName : for 15 top lines 
+5> tail fileName : display bottom 10 lines
+   tail -15 fileName : for bottom 15 lines
+6> tail -f fileName : display the bottom content of the file which is dynamically changing
+
+NANO EDITOR : 
+7> nano fileName : start the nano editor
+very easy to use, commands at the bottom of the editor. 
