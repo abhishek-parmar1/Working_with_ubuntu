@@ -11,3 +11,28 @@ NOTES :
 NANO EDITOR : 
 7> nano fileName : start the nano editor
 very easy to use, commands at the bottom of the editor. 
+
+VI EDITOR :
+8> vi fileName : open a file
+9> view fileName : open in read only format.
+a lot of commands. you can use a gui editor rather than using it. 
+
+* use nano and vi in case of server connections ssh. But in case of local use any of the editor.
+
+FIND FILES AND DIRECTORIES :
+10> find [path] [expression]
+	Patterns :
+ 		  By -name 
+			find /sbin -name mkdev
+		  BY -iname (ignore case)
+			find /sbin -iname mkdev
+			find /sbin -name *v (any file that ends with v)
+  		  BY -mtime days (days old files)
+			find /sbin -mtime +10 -mtime -13 (files that are 10 days old but not more than 13 days old)
+			find /sbin -type d -newer fileName ( all the directories that are newer than the file)
+		  By -size num ( files of size num)
+			find /sbin -size +1M (file greater than 1MB size)
+		  By -newer file (files that are newer tahn file)
+		  -exec command {} \; ( run command against all the files that are found, these guesses that the files are about what)
+
+11> locate pattern	
