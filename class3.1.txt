@@ -1,0 +1,37 @@
+NOTES	:
+
+Permissions : 
+example : -rw-rw-r-- 1 jason users 10400 sep 27 08:52 sales.data
+           <u><g><o>   ( user group other)
+1> - : regular file
+2> d : directory
+3> | : sybolic link
+
+for FILE
+4> r : read
+5> w : write
+6> x : execute
+
+for Directory
+4> r : read file names only inside it
+5> w : add or delete a file in directory
+6> x : access to contents of files and meta data of the files in the directory
+
+7> u : user
+8> g : group
+9> o : other
+10> a : all
+11> groups : display groups of current user
+
+12> change file permissions
+-> chmod g+w fileName (add w to group permissions)
+-> chmod g+wx fileName (add w,x to group permissions)
+-> chmod u+rwx, g-x fileName (add r,w,x to user permissions and remove x to group permissions)
+-> chmod a=r fileName (add r to all permissions)
+
+13> chgrp groupName fileName : change group of a file
+
+14> mv oldPathOfFile newPathOfFile : to move file from one place to another
+
+15> File creation mask : file default permissions on creation. 
+    umasks -S [mode] : to change by default permissions of created files.
