@@ -1,0 +1,23 @@
+NOTES : Remove, delete and update files
+
+REMOVE : 
+1> rm file : remove files
+2> rm -r dir : remove directory and its contents recursively
+3> rm -f file : forcefully remove a file
+
+COPY : 
+4> cp sourceFile destinationFile : copy file
+5> cp -r sourceDirectory destination : copy source to destination recursively
+6> cp -i : for interaction while copying files
+
+RENAME OR MOVE : 
+7> mv file1 file2 : rename files
+8> mv file1 file2 dir1 : move files to dir1
+similarly there are many more  combinations of these commands.
+
+SORT A FILE : 
+9> sort fileName : sort contents of a file
+10> sort -u fileName : sort unique file contents in a file
+11> sort -r fileName : for file contents in reverse order in the file
+
+TAR  and GZIP commands not practised. 

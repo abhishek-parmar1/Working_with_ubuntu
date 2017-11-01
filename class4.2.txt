@@ -1,0 +1,26 @@
+NOTES : 
+
+WILDCARDS : (for matching)
+1> * : zero or more
+2> ? : matches exactly one character
+
+CHARACTER CLASSES : (for combining wild cards)
+3> [] 
+      - [aeiou] : matching a or e or i or o or u
+      - [!aeiou] : not maching a or e or i or o or u
+4> ranges : [a-g]* , [3-6]*
+
+Predefined name charcer classes : 
+5> [[:alpha:]] : alphabetic letters (lower and upper)
+6> [[:alnum:]] : alphanumeric characters (lower and upper and number)
+7> [[:digit:]] : digits 
+8> [[:lower:]] : lower case letters 
+9> [[:space:]] : space, tab, newline
+10> [[:upper:]] : upper case letters  
+
+COMPARE FILES :
+11> diff file1 file2 : compares the two files from each other. 
+12> sdiff file1 file2 : compares the two files
+13> vimdiff file1 file2: better UI to compare two files.
+	- :qa to exit vimdiff
+	- ctrl + w : to switch between windows 
