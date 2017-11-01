@@ -23,4 +23,4 @@ COMPARE FILES :
 12> sdiff file1 file2 : compares the two files
 13> vimdiff file1 file2: better UI to compare two files.
 	- :qa to exit vimdiff
-	- ctrl + w : to switch between windows 
+	- ctrl + w : to switch between windows of two files. 
