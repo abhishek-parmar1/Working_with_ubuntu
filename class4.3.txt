@@ -36,3 +36,12 @@ SFTP mode:
 
 SCP mode:
 -> during scp mode you have to provide the path of the files to upload.  
+
+CUSTOMIZING SHELL PROMPTS : DON'T NEEDED NOW
+
+ALIASES : shortcut names for long commands
+8> create aliases : alias name='value'
+9> remove alias : unalias name
+10> remove all alias : unalias -a 
+11> list all alias : alias 
+-> to add alias permanently add them to .bash_profile file 
