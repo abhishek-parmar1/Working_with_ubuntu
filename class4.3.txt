@@ -1,0 +1,38 @@
+NOTES : 
+
+SEARCHING and USING PIPES : 
+
+SEARCHING in files : 
+1> grep pattern file : 
+	options : 
+		 -i : ignore case
+		 -c : count the occurances
+		 -n : precede outpuut with line numbers  
+		 -v : invert matches 
+
+2> details of a file contents
+   file fileName.txt
+
+SERACHING IN BINARY FILES :
+3> strings : use these instead of grep in case of searching in binary files
+
+PIPES : 
+=> | pipe symbol
+It is used to merge the various commands
+take the output from the preceding commands and pass it to the  next commands.
+exapmle : command -output | command -input
+	   cat file | grep pattern
+
+COPY FILES OVER THE NETWORK : 
+CLIENTS :
+4> SCP : secure copy
+5> SFTP : ssh file transfer protocol (better)
+6> Filezilla : use GUI clients like filezilla
+
+SFTP mode:
+-> precede all commands by "l" for runing command on local desktop.
+-> to run a command on remote use the, same syntax.
+7> put : to transfere a file to remote server.
+
+SCP mode:
+-> during scp mode you have to provide the path of the files to upload.  
