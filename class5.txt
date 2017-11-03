@@ -1,0 +1,12 @@
+NOTES :
+
+ENIVIRONMENT VARIABLES
+1> printenv : print all environment variable names and values
+2> echo $HOME : also used to print environmet variable value 
+3> export VAR="value" : create environment variable
+          export EDITOR="vi"
+4> unset VAR : remove encironment variable
+
+=> for permanently storing environment variables store them in ./bash_profile
+
+ 
