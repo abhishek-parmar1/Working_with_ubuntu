@@ -1,0 +1,23 @@
+NOTES : 
+
+CONTROLLING PROCESS : 
+1> ps : to view currently running processes in your session.
+   	-e : for all processes.
+	-f : full  format listing
+	-u username : display user's processes
+	-p pid : display info for pid process only
+	-eH : display a process tree
+2> pstree : tree format to display, all the processes details 
+3> top or htop : a more organised structure like a gui of all the processes	
+
+FOREGROUND AND BACKGROUND PROCESS : 
+4> command & : start command in background
+5> ctrl+c : kill the process in foreground
+6> ctrl+c : suspend the foreground process
+7> bg [%num] : background a suspended process
+8> fg [%num] : foreground a background process
+9> kill [%num] : kill a process
+
+=> num : job number 
+
+10> jobs [%num] : list process
