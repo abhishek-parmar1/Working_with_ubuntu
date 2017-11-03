@@ -1,0 +1,31 @@
+NOTES : 
+
+Switching USERS :
+1> su [username] : super user, change userId or become super user
+2> whoami : to get your current username
+3> to execute command as another user : su -c 'command' - username
+				 eg   : su -c 'echo $ORACLE_HOME' - oracle
+4> sudo : super user do, another way to run a command as super user  
+5> sudo command : to run a command as super user
+6> sudo -u userName command : to run command as another userName
+7> sudo su or sudo su - username : to switch to super user account or another user 
+8> sudo -s : to start shell as root
+  	
+INSTALLING SOFTWARES AND PACKAGES :
+1> yum search packageName : to search package
+2> yum info packageName : to view info of package
+3> switch to root user
+4> yum install packageName : to install
+5> yum remove packageName : to uninstall
+
+1> rpm -ivh softwareFileName : to install any software vai rpm
+2> rpm -qa | sort | less : to list all the packages installed in sorted order in less 
+3> rpm -ql packageName : it will list all the files related to the particular package
+
+1> apt -cache search packageName : to search package
+2> apt -get install packageName : to install package
+3> apt -get remove : to remove package
+4> spt -get purge package : remove configuration of a package
+5> apt -cache show package : to show details of a package
+
+or use dpkg to install
